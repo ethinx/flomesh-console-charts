@@ -3,12 +3,12 @@ entries:
   flomesh-console:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2022-11-09T09:00:08.497703062Z"
+    created: "2022-11-09T09:09:16.619391187Z"
     description: A Helm chart to install flomesh-console on Kubernetes
-    digest: 943a4ef948d81e3fcd72f733f8211f74bcb128521982f53c8b6004751be8bdcb
+    digest: 2b6aaf6c413d1d5256577a824300119aa9734a65ac0ea78ae2985a4de7ae94c5
     name: flomesh-console
     type: application
     urls:
     - https://ethinx.github.io/flomesh-console-charts/flomesh-console-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-09T09:00:08.496431702Z"
+generated: "2022-11-09T09:09:16.618153576Z"
