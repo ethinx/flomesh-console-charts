@@ -17,4 +17,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           charts_dir: charts
-          branch: gh-pages
