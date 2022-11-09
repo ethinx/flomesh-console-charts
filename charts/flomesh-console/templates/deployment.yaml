@@ -25,7 +25,7 @@ spec:
       serviceAccountName: {{ .Values.serviceAccount.name }}
       containers:
         - name: {{ .Chart.Name }}
-          image: "{{ .Values.image.repository }}/{{ .Values.gui.imageName | default "flomesh-console"}}:{{ .Values.gui.tag }}"
+          image: "{{ .Values.image.repository }}/{{ .Values.console.imageName | default "flomesh-console"}}:{{ .Values.console.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
           - name: HOST

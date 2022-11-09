@@ -10,7 +10,7 @@ imagePullSecrets: []
 nameOverride: "flomesh-console"
 fullnameOverride: "flomesh-console"
 
-gui:
+console:
   imageName: flomesh-console
   tag: 1.0-24
   resources: {}
