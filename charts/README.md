@@ -32,7 +32,8 @@ and create a database named `flomesh`, otherwide you need to set the database na
    	--set console.tag=1.0-16 \
    	--set database.host=<db addr> \
    	--set database.user=<db user> \
-   	--set database.password=<db password>
+   	--set database.password=<db password> \
+   	--set service.type=NodePort
    ```
 
    If you are using PostgreSQL
@@ -48,7 +49,22 @@ and create a database named `flomesh`, otherwide you need to set the database na
    	--set database.host=<db addr> \
    	--set database.port=5432 \
    	--set database.user=<db user> \
-   	--set database.password=<db password>
+   	--set database.password=<db password> \
+   	--set service.type=NodePort
    ```
 
-   
+   if the cluster has ingress enabled, you could configure ingress during installation with option `ingress.enabled=true` and set your ingress host with `ingress.host`
+   ```
+   helm install \
+   	--create-namespace \
+   	--namespace flomesh-console \
+   	flomesh-console \
+   	flomesh-console/flomesh-console \
+   	--set console.tag=1.0-16 \
+   	--set database.host=<db addr> \
+   	--set database.user=<db user> \
+   	--set database.password=<db password> \
+   	--set ingress.enabled=true \
+   	--set ingress.host=<your domain name here>
+   ```
+
