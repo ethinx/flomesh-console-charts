@@ -38,6 +38,10 @@ spec:
             value: "8080"
           - name: TZ
             value: Asia/Shanghai
+          {{- range $k, $v := .Values.console.env }}
+          - name: {{$k}}
+            value: {{$v}}
+          {{- end }}
           envFrom:
           - secretRef:
               name: flomesh-console-db-cred
