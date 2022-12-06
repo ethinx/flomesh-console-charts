@@ -4,7 +4,7 @@
 
 ## Prerequisite
 
-Before installing the flomesh console, you need to setup a database beforehand:
+Before installing flomesh-console, you need to setup a database beforehand:
 
 * MySQL >= 5.7
 * PostgreSQL >= v12
