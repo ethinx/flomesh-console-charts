@@ -3,7 +3,7 @@ name: flomesh-console
 description: A Helm chart to install flomesh-console on Kubernetes
 type: application
 kubeVersion: ">= 1.19"
-version: 0.2.0
+version: 0.2.0-ubi8
 appVersion: "0.0.7"
 annotations:
   charts.openshift.io/name: "flomesh-console"
