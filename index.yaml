@@ -14,6 +14,19 @@ entries:
     urls:
     - https://ethinx.github.io/flomesh-console-charts/flomesh-console-0.2.0.tgz
     version: 0.2.0
+  - annotations:
+      charts.openshift.io/name: flomesh-console
+    apiVersion: v2
+    appVersion: 0.0.7
+    created: "2022-12-06T11:05:21.934742397Z"
+    description: A Helm chart to install flomesh-console on Kubernetes
+    digest: 6835fff2bc90fbdcddd9658fa63efd9be945204bb62b31d90c0432c1a96da4bc
+    kubeVersion: '>= 1.19'
+    name: flomesh-console
+    type: application
+    urls:
+    - https://ethinx.github.io/flomesh-console-charts/flomesh-console-0.2.0-ubi8.tgz
+    version: 0.2.0-ubi8
   - apiVersion: v2
     appVersion: 1.0.1
     created: "2022-11-30T03:01:33.886972601Z"
@@ -24,4 +37,4 @@ entries:
     urls:
     - https://ethinx.github.io/flomesh-console-charts/flomesh-console-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-06T11:04:38.687483114Z"
+generated: "2022-12-06T11:05:21.933472279Z"
